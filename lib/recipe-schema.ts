@@ -1,0 +1,2 @@
+import { z } from "zod";
+export const recipeInputSchema=z.object({slug:z.string().min(3).regex(/^[a-z0-9-]+$/),servings:z.coerce.number().int().min(1).max(100),prepMinutes:z.coerce.number().int().min(0).max(1440),cookMinutes:z.coerce.number().int().min(0).max(10080),translations:z.array(z.object({locale:z.enum(["TR","EN"]),title:z.string().min(3).max(140),description:z.string().min(20).max(500)})).min(1)});
