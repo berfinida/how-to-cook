@@ -24,6 +24,8 @@ npm run dev
 
 `ADMIN_EMAIL` ve `ADMIN_PASSWORD` yalnızca yerel seed için kullanılır. R2 alanları Faz 1'de boş bırakılabilir; görseller yerel depodan servis edilir.
 
+`AUTH_SECRET` (ve eski kurulumlarla uyum için `NEXTAUTH_SECRET`) benzersiz, en az 32 karakterlik rastgele bir değer olmalıdır. Örneği `openssl rand -base64 32` ile üretin; `.env` dosyasını asla repoya ya da istemci tarafına eklemeyin. Uygulama gerçek PostgreSQL bağlantısı olmadan demo verisini gösterir; giriş, yönetim ve kalıcı kullanıcı verileri için `DATABASE_URL` zorunludur.
+
 ## Kontroller
 
 ```bash

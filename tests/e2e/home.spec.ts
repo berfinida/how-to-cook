@@ -25,6 +25,19 @@ test("search, empty state and recipe detail work", async ({ page }) => {
   await expect(page.getByText("Main · Mediterranean", { exact: true })).toBeVisible();
 });
 
+test("pantry matching ranks recipes and the shopping list persists in the browser", async ({ page }) => {
+  await page.goto("/tr/recipes");
+  await page.locator("summary", { hasText: "Elimdeki malzemeler" }).click();
+  await page.getByRole("textbox", { name: "Elimdeki malzemeler" }).fill("domates, yumurta");
+  await expect(page.getByRole("heading", { name: "Klasik Menemen" })).toBeVisible();
+  await expect(page.getByText("2 eşleşen malzeme", { exact: true }).first()).toBeVisible();
+  await page.goto("/tr/recipes/menemen");
+  await page.getByRole("button", { name: "Alışveriş listesine ekle" }).click();
+  await page.getByRole("link", { name: "Alışveriş listem" }).click();
+  await expect(page.getByRole("heading", { name: "Alışveriş listem" })).toBeVisible();
+  await expect(page.getByText("3 olgun domates", { exact: true })).toBeVisible();
+});
+
 test("metadata, canonical, hreflang and Recipe JSON-LD are valid", async ({ page }) => {
   await page.goto("/tr/recipes/firinda-akdeniz-sebzeleri");
   await expect(page).toHaveTitle(/Fırında Akdeniz Sebzeleri/);
