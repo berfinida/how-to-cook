@@ -132,6 +132,41 @@ export const recipes: Recipe[] = [
     }
   },
   {
+    slug: "kayseri-mantisi", image: "/images/manti.jpg", prep: 45, cook: 15, servings: 4, difficulty: "Orta", featured: false,
+    copy: {
+      tr: { title: "Kayseri Mantısı", description: "Sarımsaklı yoğurt ve naneli tereyağıyla tamamlanan, minik hamur bohçaları.", category: "Ana yemek", cuisine: "Türk", ingredients: ["2 su bardağı un", "1 yumurta", "150 g kıyma", "1 küçük soğan", "1,5 su bardağı yoğurt", "2 diş sarımsak"], steps: ["Un, yumurta ve suyla sertçe bir hamur yoğurup 20 dakika dinlendirin.", "Hamuru ince açıp küçük kareler kesin; kıymalı harç koyup kapatın.", "Mantıları kaynayan tuzlu suda yüzeye çıkana kadar haşlayın.", "Sarımsaklı yoğurt ve naneli kızdırılmış tereyağıyla servis edin."], tip: "Hamuru açarken tezgâhı unlayın; fazla un ise haşlama suyunu bulandırabilir." },
+      en: { title: "Kayseri-Style Mantı", description: "Tiny filled dumplings served with garlicky yogurt and mint butter.", category: "Main", cuisine: "Turkish", ingredients: ["2 cups flour", "1 egg", "150 g minced beef", "1 small onion", "1 1/2 cups yogurt", "2 garlic cloves"], steps: ["Knead flour, egg and water into a firm dough and rest for 20 minutes.", "Roll thin, cut into small squares, fill with minced meat and seal.", "Boil in salted water until the dumplings float.", "Serve with garlicky yogurt and hot mint butter."], tip: "Dust the counter lightly while rolling; too much flour will cloud the cooking water." }
+    }
+  },
+  {
+    slug: "dereotlu-cacik", image: "/images/cacik.jpg", prep: 10, cook: 0, servings: 4, difficulty: "Kolay", featured: false,
+    copy: {
+      tr: { title: "Dereotlu Cacık", description: "Salatalık, yoğurt ve taze dereotuyla hazırlanan serin, ferah sofralık eşlikçi.", category: "Meze", cuisine: "Türk", ingredients: ["2 su bardağı süzme yoğurt", "2 küçük salatalık", "1 diş sarımsak", "1/2 demet dereotu", "1 yemek kaşığı zeytinyağı", "1/2 çay kaşığı tuz"], steps: ["Yoğurdu biraz soğuk suyla akışkan kıvama getirin.", "Salatalıkları küçük küpler halinde doğrayın.", "Sarımsak, dereotu ve tuzu yoğurda karıştırın.", "Salatalıkları ekleyip zeytinyağı gezdirerek servis edin."], tip: "Salatalıkları önceden tuzlamayın; suyunu bırakıp cacığı inceltebilir." },
+      en: { title: "Dill Cacık", description: "A cool, refreshing Turkish yogurt side with cucumber, garlic and fresh dill.", category: "Meze", cuisine: "Turkish", ingredients: ["2 cups strained yogurt", "2 small cucumbers", "1 garlic clove", "1/2 bunch dill", "1 tbsp olive oil", "1/2 tsp salt"], steps: ["Loosen yogurt with a little cold water.", "Dice the cucumbers into small pieces.", "Stir garlic, dill and salt through the yogurt.", "Add cucumber and finish with olive oil."], tip: "Do not salt cucumber ahead of time or it will thin the yogurt." }
+    }
+  },
+  {
+    slug: "peynirli-sigara-boregi", image: "/images/sigara-boregi.jpg", prep: 20, cook: 15, servings: 6, difficulty: "Kolay", featured: false,
+    copy: {
+      tr: { title: "Peynirli Sigara Böreği", description: "İncecik yufkanın içinde beyaz peynir ve maydanozla hazırlanan çıtır atıştırmalık.", category: "Meze", cuisine: "Türk", ingredients: ["3 yufka", "200 g beyaz peynir", "1/2 demet maydanoz", "1 yumurta", "Kızartmak için sıvı yağ"], steps: ["Peyniri ezin, maydanoz ve yumurta akıyla karıştırın.", "Her yufkayı sekiz üçgene bölün.", "Geniş kenara iç koyup sıkıca sarın; ucunu suyla yapıştırın.", "Kızgın yağda altın rengi olana kadar kızartın."], tip: "Börekleri kızartmadan önce 10 dakika dinlendirmek uçlarının açılmasını önler." },
+      en: { title: "Crispy Cheese Sigara Böreği", description: "Golden Turkish filo rolls filled with white cheese and parsley.", category: "Meze", cuisine: "Turkish", ingredients: ["3 sheets yufka", "200 g white cheese", "1/2 bunch parsley", "1 egg", "Neutral oil for frying"], steps: ["Mash cheese and combine with parsley and egg white.", "Cut each yufka sheet into eight triangles.", "Place filling on the wide end, roll tightly and seal the tip with water.", "Fry in hot oil until golden."], tip: "Let the rolls rest for 10 minutes before frying to help the seams stay closed." }
+    }
+  },
+  {
+    slug: "limonlu-revani", image: "/images/revani.jpg", prep: 20, cook: 35, servings: 10, difficulty: "Orta", featured: false,
+    copy: {
+      tr: { title: "Limonlu Revani", description: "İrmik dokulu keki limonlu şerbetle buluşturan, hafif ve sulu klasik tatlı.", category: "Tatlı", cuisine: "Türk", ingredients: ["3 yumurta", "1 su bardağı şeker", "1 su bardağı irmik", "1 su bardağı un", "1 limon", "2 su bardağı su"], steps: ["Şerbet için su ve şekeri 10 dakika kaynatıp limon suyunu ekleyin; soğutun.", "Yumurta ve şekeri çırpıp irmik, un ve kabartma tozunu ekleyin.", "170°C fırında 30-35 dakika pişirin.", "Ilık keke soğuk şerbeti yavaşça döküp dinlendirin."], tip: "Şerbet ve kekten birinin ılık, diğerinin soğuk olması revaniyi hamurlaştırmadan çektirir." },
+      en: { title: "Lemon Revani", description: "A light semolina cake soaked with bright lemon syrup.", category: "Dessert", cuisine: "Turkish", ingredients: ["3 eggs", "1 cup sugar", "1 cup semolina", "1 cup flour", "1 lemon", "2 cups water"], steps: ["Boil water and sugar for 10 minutes, add lemon juice and cool the syrup.", "Whisk eggs and sugar, then add semolina, flour and baking powder.", "Bake at 170°C for 30-35 minutes.", "Pour cool syrup slowly over the warm cake and let it rest."], tip: "Keep one component warm and the other cool so the cake absorbs syrup without turning soggy." }
+    }
+  },
+  {
+    slug: "patates-salatasi", image: "/images/patates-salatasi.jpg", prep: 20, cook: 20, servings: 6, difficulty: "Kolay", featured: false,
+    copy: {
+      tr: { title: "Bol Yeşillikli Patates Salatası", description: "Limon, zeytinyağı ve taze otlarla tamamlanan sade ama doyurucu çay saati salatası.", category: "Salata", cuisine: "Türk", ingredients: ["1 kg patates", "4 dal taze soğan", "1/2 demet maydanoz", "1 limon", "4 yemek kaşığı zeytinyağı", "1 çay kaşığı pul biber"], steps: ["Patatesleri kabuklu haşlayıp ılınmaya bırakın.", "Kabuklarını soyup iri küpler halinde doğrayın.", "Taze soğan ve maydanozu ince kıyın.", "Limon, zeytinyağı, tuz ve baharatlarla nazikçe harmanlayın."], tip: "Patatesler ılıkken soslamak limonlu yağın daha iyi emilmesini sağlar." },
+      en: { title: "Herby Turkish Potato Salad", description: "A satisfying tea-time potato salad with lemon, olive oil and fresh herbs.", category: "Salad", cuisine: "Turkish", ingredients: ["1 kg potatoes", "4 spring onions", "1/2 bunch parsley", "1 lemon", "4 tbsp olive oil", "1 tsp chilli flakes"], steps: ["Boil potatoes in their skins, then let them cool slightly.", "Peel and cut into large cubes.", "Finely slice spring onion and parsley.", "Toss gently with lemon, olive oil, salt and seasoning."], tip: "Dress the potatoes while warm so they absorb the lemony oil more effectively." }
+    }
+  },
+  {
     slug: "humus", image: "/images/hummus.jpg", prep: 15, cook: 0, servings: 6, difficulty: "Kolay", featured: false,
     copy: {
       tr: { title: "Kremsi Humus", description: "Tahin, limon ve sarımsakla pürüzsüz kıvamlı klasik nohut ezmesi.", category: "Meze", cuisine: "Levant", ingredients: ["2 su bardağı haşlanmış nohut", "1/2 su bardağı tahin", "1 limonun suyu", "1 diş sarımsak", "1/2 çay kaşığı kimyon", "4 yemek kaşığı buzlu su"], steps: ["Nohut, tahin, limon ve sarımsağı robota alın.", "Pürüzsüzleşene kadar 2 dakika çekin.", "Makine çalışırken buzlu suyu azar azar ekleyin.", "Tuz ve kimyonla ayarlayıp zeytinyağıyla servis edin."], tip: "Buzlu su tahinin rengini açar ve humusa daha hafif bir doku verir." },

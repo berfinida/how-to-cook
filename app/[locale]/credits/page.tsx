@@ -15,6 +15,11 @@ const imageCredits = [
   ["kisir.jpg", "E4024", "CC BY-SA 4.0", "https://commons.wikimedia.org/wiki/File:Kisir_(small_portion).jpg"],
   ["kuru-fasulye.jpg", "E4024", "CC BY-SA 4.0", "https://commons.wikimedia.org/wiki/File:Kuru_fasulye_(without_meat).jpg"],
   ["mucver.jpg", "Andy Li", "CC0", "https://commons.wikimedia.org/wiki/File:M%C3%BCcver_-_Etci_Kitchen_2025-09-22.jpg"],
+  ["manti.jpg", "E4024", "CC BY-SA 4.0", "https://commons.wikimedia.org/wiki/File:Turkish_mant%C4%B1_in_a_bowl.jpg"],
+  ["cacik.jpg", "Chitrapa", "CC BY-SA 4.0", "https://commons.wikimedia.org/wiki/File:Turkish_Cac%C4%B1k_with_fresh_Dill_-_Close_Up.jpg"],
+  ["sigara-boregi.jpg", "Garrett Ziegler", "CC BY-SA 4.0", "https://commons.wikimedia.org/wiki/File:Sigara_B%C3%B6rek.jpg"],
+  ["revani.jpg", "E4024", "CC BY-SA 4.0", "https://commons.wikimedia.org/wiki/File:Revani_with_lemon_zest.jpg"],
+  ["patates-salatasi.jpg", "Basak", "CC0", "https://commons.wikimedia.org/wiki/File:Patates_Salatas%C4%B1.jpg"],
 ] as const;
 
 export default async function CreditsPage({ params }: { params: Promise<{ locale: Locale }> }) {
