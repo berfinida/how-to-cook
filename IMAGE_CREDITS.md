@@ -11,3 +11,8 @@ The stock images below are included locally and used only with their listed Crea
 - `islak-kek.jpg` — E4024, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Chocolate_cake_in_Ankara.jpg)
 - `banana-pancakes.jpg` — sunny mama, [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Banana_egg_pancakes_(17048779432).jpg)
 - `hummus.jpg` — Paul Goyette, [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Hummus_from_The_Nile.jpg)
+- `turkish-kofte.jpg` — E4024, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Turkish_k%C3%B6fte_and_fries.jpg)
+- `mercimek-koftesi.jpg` — E4024, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Mercimek_k%C3%B6ftesi.jpg)
+- `kisir.jpg` — E4024, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Kisir_(small_portion).jpg)
+- `kuru-fasulye.jpg` — E4024, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Kuru_fasulye_(without_meat).jpg)
+- `mucver.jpg` — Andy Li, [CC0](https://commons.wikimedia.org/wiki/File:M%C3%BCcver_-_Etci_Kitchen_2025-09-22.jpg)

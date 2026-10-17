@@ -97,6 +97,41 @@ export const recipes: Recipe[] = [
     }
   },
   {
+    slug: "izgara-kofte", image: "/images/turkish-kofte.jpg", prep: 20, cook: 12, servings: 4, difficulty: "Kolay", featured: false,
+    copy: {
+      tr: { title: "Ev Usulü Izgara Köfte", description: "Soğan, kimyon ve maydanozla aromalanan; dışı kızarmış, içi sulu klasik köfte.", category: "Ana yemek", cuisine: "Türk", ingredients: ["500 g orta yağlı kıyma", "1 küçük soğan", "1 dilim bayat ekmek içi", "1 yumurta", "1/2 demet maydanoz", "1 çay kaşığı kimyon"], steps: ["Soğanı rendeleyip fazla suyunu sıkın.", "Tüm malzemeleri 3-4 dakika yoğurup 20 dakika dinlendirin.", "Harçtan ceviz büyüklüğünde parçalar alıp yassı köfteler şekillendirin.", "Kızgın ızgara tavada her yüzünü 5-6 dakika pişirin."], tip: "Köfte harcını dinlendirmek şeklinin pişerken korunmasına yardımcı olur." },
+      en: { title: "Turkish Grilled Köfte", description: "Classic juicy meat patties seasoned with onion, cumin and parsley.", category: "Main", cuisine: "Turkish", ingredients: ["500 g medium-fat minced beef", "1 small onion", "1 slice stale bread", "1 egg", "1/2 bunch parsley", "1 tsp cumin"], steps: ["Grate the onion and squeeze out excess liquid.", "Knead all ingredients for 3-4 minutes and rest for 20 minutes.", "Shape walnut-sized portions into flat patties.", "Cook on a hot griddle for 5-6 minutes per side."], tip: "Resting the mixture helps the patties keep their shape while cooking." }
+    }
+  },
+  {
+    slug: "mercimek-koftesi", image: "/images/mercimek-koftesi.jpg", prep: 25, cook: 20, servings: 6, difficulty: "Kolay", featured: false,
+    copy: {
+      tr: { title: "Mercimek Köftesi", description: "Kırmızı mercimek, ince bulgur ve bol yeşillikle hazırlanan ferah çay saati klasiği.", category: "Meze", cuisine: "Türk", ingredients: ["1 su bardağı kırmızı mercimek", "2,5 su bardağı su", "1,5 su bardağı ince bulgur", "1 soğan", "2 yemek kaşığı domates salçası", "1/2 demet maydanoz"], steps: ["Mercimeği suyla tamamen yumuşayana kadar pişirin.", "Ocağı kapatıp ince bulguru ekleyin ve kapağı kapalı 15 dakika bekletin.", "Soğanı salçayla kavurup mercimekli harca ekleyin.", "Yeşillikleri katıp yoğurun ve sıkım köfteler şekillendirin."], tip: "Yeşillikleri harç ılındıktan sonra eklemek renklerini canlı tutar." },
+      en: { title: "Turkish Red Lentil Patties", description: "A fresh tea-time classic made with red lentils, fine bulgur and plenty of herbs.", category: "Meze", cuisine: "Turkish", ingredients: ["1 cup red lentils", "2 1/2 cups water", "1 1/2 cups fine bulgur", "1 onion", "2 tbsp tomato paste", "1/2 bunch parsley"], steps: ["Cook lentils in water until completely tender.", "Take off the heat, stir in bulgur and cover for 15 minutes.", "Cook onion with tomato paste and stir into the lentil mixture.", "Fold in herbs, knead and shape into small patties."], tip: "Add herbs only once the mixture is warm rather than hot to keep their colour bright." }
+    }
+  },
+  {
+    slug: "kisir", image: "/images/kisir.jpg", prep: 25, cook: 0, servings: 6, difficulty: "Kolay", featured: false,
+    copy: {
+      tr: { title: "Bol Yeşillikli Kısır", description: "İnce bulgur, nar ekşisi ve taze otlarla hazırlanan canlı, ekşili salata.", category: "Salata", cuisine: "Türk", ingredients: ["2 su bardağı ince bulgur", "1,5 su bardağı sıcak su", "2 yemek kaşığı biber salçası", "4 yemek kaşığı zeytinyağı", "3 yemek kaşığı nar ekşisi", "Maydanoz, taze soğan ve nane"], steps: ["Bulguru sıcak suyla ıslatıp 15 dakika dinlendirin.", "Salçayı zeytinyağıyla açıp bulgura karıştırın.", "Nar ekşisi, limon suyu ve baharatları ekleyin.", "İnce kıyılmış yeşillikleri katıp servis edin."], tip: "Kısırı servis etmeden 15 dakika dinlendirmek lezzetlerin birbirine geçmesini sağlar." },
+      en: { title: "Herby Turkish Kısır", description: "A bright, tangy bulgur salad with pomegranate molasses and fresh herbs.", category: "Salad", cuisine: "Turkish", ingredients: ["2 cups fine bulgur", "1 1/2 cups hot water", "2 tbsp pepper paste", "4 tbsp olive oil", "3 tbsp pomegranate molasses", "Parsley, spring onion and mint"], steps: ["Soak bulgur in hot water and rest for 15 minutes.", "Mix pepper paste with olive oil and stir through the bulgur.", "Add pomegranate molasses, lemon juice and seasoning.", "Fold through finely chopped herbs and serve."], tip: "Let the salad rest for 15 minutes before serving so the flavours meld." }
+    }
+  },
+  {
+    slug: "etsiz-kuru-fasulye", image: "/images/kuru-fasulye.jpg", prep: 15, cook: 70, servings: 6, difficulty: "Orta", featured: false,
+    copy: {
+      tr: { title: "Etsiz Kuru Fasulye", description: "Soğan ve domates salçasıyla ağır ağır pişen, pilavın en iyi eşlikçisi ev yemeği.", category: "Ana yemek", cuisine: "Türk", ingredients: ["2 su bardağı kuru fasulye", "1 büyük soğan", "2 yemek kaşığı domates salçası", "3 yemek kaşığı zeytinyağı", "5 su bardağı sıcak su", "1 çay kaşığı toz kırmızı biber"], steps: ["Fasulyeyi bir gece önceden ıslatıp süzün.", "Soğanı yağda yumuşatıp salçayı bir dakika kavurun.", "Fasulye, sıcak su ve baharatları ekleyin.", "Kapağı kapalı, fasulyeler yumuşayana kadar kısık ateşte pişirin."], tip: "Tuzu fasulyeler yumuşamaya başladıktan sonra eklemek kabuklarının sertleşmesini önler." },
+      en: { title: "Turkish White Bean Stew", description: "A slow-simmered home-style white bean stew with onion and tomato paste.", category: "Main", cuisine: "Turkish", ingredients: ["2 cups dried white beans", "1 large onion", "2 tbsp tomato paste", "3 tbsp olive oil", "5 cups hot water", "1 tsp sweet paprika"], steps: ["Soak beans overnight, then drain.", "Soften onion in oil and cook tomato paste for one minute.", "Add beans, hot water and spices.", "Cover and simmer on low until the beans are tender."], tip: "Add salt once the beans begin to soften to help keep their skins tender." }
+    }
+  },
+  {
+    slug: "kabak-mucver", image: "/images/mucver.jpg", prep: 20, cook: 20, servings: 4, difficulty: "Kolay", featured: false,
+    copy: {
+      tr: { title: "Dereotlu Kabak Mücver", description: "Kabak, beyaz peynir ve dereotuyla hazırlanan çıtır kenarlı, yumuşak içli mücverler.", category: "Meze", cuisine: "Türk", ingredients: ["3 orta boy kabak", "2 yumurta", "4 yemek kaşığı un", "100 g beyaz peynir", "1/2 demet dereotu", "1 çay kaşığı kabartma tozu"], steps: ["Kabakları rendeleyip tuzlayın, 10 dakika sonra suyunu iyice sıkın.", "Yumurta, un, peynir, dereotu ve kabartma tozuyla karıştırın.", "Tavada az yağı orta ateşte ısıtın.", "Karışımdan kaşık kaşık döküp iki yüzünü altın rengi olana kadar pişirin."], tip: "Kabak suyunu çok iyi sıkmak mücverlerin yağ çekmeden çıtırlaşmasını sağlar." },
+      en: { title: "Dill Zucchini Fritters", description: "Crisp-edged Turkish zucchini fritters with white cheese and fresh dill.", category: "Meze", cuisine: "Turkish", ingredients: ["3 medium courgettes", "2 eggs", "4 tbsp flour", "100 g white cheese", "1/2 bunch dill", "1 tsp baking powder"], steps: ["Grate courgettes, salt them and squeeze thoroughly after 10 minutes.", "Mix with egg, flour, cheese, dill and baking powder.", "Warm a little oil over medium heat.", "Spoon in the mixture and cook both sides until golden."], tip: "Squeezing the courgettes very well keeps the fritters crisp rather than oily." }
+    }
+  },
+  {
     slug: "humus", image: "/images/hummus.jpg", prep: 15, cook: 0, servings: 6, difficulty: "Kolay", featured: false,
     copy: {
       tr: { title: "Kremsi Humus", description: "Tahin, limon ve sarımsakla pürüzsüz kıvamlı klasik nohut ezmesi.", category: "Meze", cuisine: "Levant", ingredients: ["2 su bardağı haşlanmış nohut", "1/2 su bardağı tahin", "1 limonun suyu", "1 diş sarımsak", "1/2 çay kaşığı kimyon", "4 yemek kaşığı buzlu su"], steps: ["Nohut, tahin, limon ve sarımsağı robota alın.", "Pürüzsüzleşene kadar 2 dakika çekin.", "Makine çalışırken buzlu suyu azar azar ekleyin.", "Tuz ve kimyonla ayarlayıp zeytinyağıyla servis edin."], tip: "Buzlu su tahinin rengini açar ve humusa daha hafif bir doku verir." },
