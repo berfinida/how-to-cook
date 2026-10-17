@@ -3,6 +3,6 @@
   "home": { "eyebrow": "Cook with the seasons, share with joy", "title": "Every table has a story to tell.", "body": "Reliable, detailed recipes from our editors and community. Find what to cook and share your own kitchen story.", "cta": "Explore recipes", "secondary": "Cook with ingredients", "featured": "Editor's picks", "featuredBody": "Three recipes worth cooking this week." },
   "recipes": { "title": "All recipes", "body": "Find a recipe for your kitchen, schedule and taste.", "search": "Search recipes or ingredients", "all": "All", "quick": "Under 30 minutes", "empty": "We couldn't find a matching recipe.", "result": "recipes found", "minutes": "min", "servings": "servings" },
   "recipe": { "ingredients": "Ingredients", "steps": "Method", "tips": "Cook's note", "prep": "Prep", "cook": "Cook", "difficulty": "Difficulty", "servings": "Servings" },
-  "footer": { "tagline": "Good food is a story told with care.", "rights": "All rights reserved." },
+  "footer": { "tagline": "Good food is a story told with care.", "rights": "All rights reserved.", "credits": "Image credits" },
   "status": { "notFoundTitle": "Page not found", "notFoundBody": "The page may have moved or may not be available in this language.", "home": "Return home", "errorTitle": "Something went wrong", "errorBody": "Please try again. If the problem continues, return to the home page.", "retry": "Try again" }
 }
