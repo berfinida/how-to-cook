@@ -5,9 +5,7 @@ import { recipes } from "../lib/recipes";
 const prisma = new PrismaClient();
 
 function categorySlug(name: string) {
-  if (name === "Çorba") return "soup";
-  if (name === "Tatlı") return "dessert";
-  return "main";
+  return name.toLocaleLowerCase("tr").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ı/g, "i").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
 
 async function main() {

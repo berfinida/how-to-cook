@@ -1,7 +1,7 @@
 {
   "nav": { "recipes": "Tarifler", "popular": "Popüler", "new": "Yeni", "about": "Hakkımızda", "login": "Giriş yap" },
   "home": { "eyebrow": "Mevsiminde pişir, keyifle paylaş", "title": "Her sofranın anlatacak bir hikâyesi var.", "body": "Editörlerimizden ve topluluğumuzdan güvenilir, ayrıntılı tarifler. Ne pişireceğini bul, kendi mutfak hikâyeni paylaş.", "cta": "Tarifleri keşfet", "secondary": "Malzemene göre bul", "featured": "Editörün seçtikleri", "featuredBody": "Bu hafta mutlaka denemen gereken üç tarif." },
-  "recipes": { "title": "Tüm tarifler", "body": "Mutfağına, vaktine ve damak zevkine uygun tarifi bul.", "search": "Tarif veya malzeme ara", "all": "Tümü", "empty": "Aramana uygun tarif bulamadık.", "minutes": "dk", "servings": "kişilik" },
+  "recipes": { "title": "Tüm tarifler", "body": "Mutfağına, vaktine ve damak zevkine uygun tarifi bul.", "search": "Tarif veya malzeme ara", "all": "Tümü", "quick": "30 dakika altı", "empty": "Aramana uygun tarif bulamadık.", "result": "tarif bulundu", "minutes": "dk", "servings": "kişilik" },
   "recipe": { "ingredients": "Malzemeler", "steps": "Yapılışı", "tips": "Püf noktası", "prep": "Hazırlık", "cook": "Pişirme", "difficulty": "Zorluk", "servings": "Porsiyon" },
   "footer": { "tagline": "İyi yemek, özenle anlatılmış bir hikâyedir.", "rights": "Tüm hakları saklıdır." },
   "status": { "notFoundTitle": "Sayfa bulunamadı", "notFoundBody": "Sayfa taşınmış veya bu dilde mevcut olmayabilir.", "home": "Ana sayfaya dön", "errorTitle": "Bir sorun oluştu", "errorBody": "Lütfen yeniden deneyin. Sorun sürerse ana sayfaya dönün.", "retry": "Yeniden dene" }
